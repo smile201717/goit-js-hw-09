@@ -75,6 +75,7 @@ function makeMarkupGalleryListItem(img) {
     <img
         class="gallery-image"
         src="${img.preview}"
+        alt="${img.description}"
     />
     </a>
 </li>`;
