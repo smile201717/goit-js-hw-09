@@ -3,6 +3,7 @@ import"./assets/modulepreload-polyfill-ec808ebb.js";/* empty css                
     <img
         class="gallery-image"
         src="${p.preview}"
+        alt="${p.description}"
     />
     </a>
 </li>`}function n(p){const o=p.map(e).join("");t.innerHTML=o}n(a);new i(".gallery a",{captionsData:"alt",captionDelay:250});
